@@ -16,3 +16,5 @@ To run it, simply open a terminal in it's directory then:
 $ ./ipscan.sh
 
 Works on all Linux, but most do have an IP scanner, I couldn't find any for the RPi so I went ahead and made this. No need to install anything and simple enough to read through if one is paranoid about the other IP scans that require installation and has lots of code.
+
+WARNING: Due to ping command limitations (or lack of knowledge on my part) it takes 1 sec for it to ping one adress
