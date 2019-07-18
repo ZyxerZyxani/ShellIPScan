@@ -3,6 +3,7 @@ export GREP_COLOR='1;32'
 read -p "Scan which IP? End with '.' and skip the last numbers. " ip
 read -p "Lowest IP ending to scan from? " lip
 read -p "Greatest IP ending to scan to? " gip
+(( gip += 1 ))
 while test $lip -lt $gip
 do
 	fip="$ip$lip"
