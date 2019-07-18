@@ -17,4 +17,4 @@ $ ./ipscan.sh
 
 Works on all Linux, but most do have an IP scanner, I couldn't find any for the RPi so I went ahead and made this. No need to install anything and simple enough to read through if one is paranoid about the other IP scans that require installation and has lots of code.
 
-WARNING: Due to ping command limitations (or lack of knowledge on my part) it takes 1 sec for it to ping one adress
+WARNING: Due to ping command limitations (or lack of knowledge on my part) it takes 1 sec for it to ping one adress so a long range does take some time. It only prints out if it gets a response so while it might seem to have frozen it is probably just pinging stuff that don't respond. So if nothing happens, no wirries, just wait it out! (Y)
